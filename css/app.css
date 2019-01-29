@@ -1,0 +1,59 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.center{
+    text-align: center;
+}
+#bar {
+    height: 2px;
+    background-color: #006DF0;
+    width: 0;
+}
+
+.canvas {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#procent {
+    font-size: 50px;
+    text-align: center;
+    color: #006DF0;
+}
+
+.empreinte {
+    position: absolute;
+    height: 64px;
+    background: url('/images/fingerprint.png') no-repeat;
+    background-size: 64px 64px;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    transform: translate(-50%, -50%);
+}
+
+.canvas-wrap {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
